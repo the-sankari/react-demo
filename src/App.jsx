@@ -1,12 +1,15 @@
 import "./App.css";
-import Box  from "./assets/components/Box";
+// import Box from "./assets/components/Box";
+import { useState } from "react";
+import PersonList from "./assets/components/PersonsList";
 
 function App() {
+  const [counter, setCounter] = useState(0);
+
   return (
     <>
-      <Box name="John" title="CTO" location="Helsinki" />
-      <Box name="Davin" title="Dev" location="Turku" />
-      <Box name="Saf" title="Designer" location="Tampere" />
+      <p>Counter: {counter} </p>
+      <PersonList/>
 
     </>
   );
