@@ -4,9 +4,10 @@ import Box  from "./assets/components/Box";
 function App() {
   return (
     <>
-      <Box name="Fox" title="Herrä" location="Github" />
-      <Box/>
-      <Box/>
+      <Box name="John" title="CTO" location="Helsinki" />
+      <Box name="Davin" title="Dev" location="Turku" />
+      <Box name="Saf" title="Designer" location="Tampere" />
+
     </>
   );
 }
