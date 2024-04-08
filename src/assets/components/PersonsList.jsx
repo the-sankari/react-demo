@@ -1,5 +1,6 @@
 import Box from "./Box";
 import { useState } from "react";
+// import Counter from "./Counter";
 // import { PersonList } from "./assets/components/PersonList";
 
 function PersonList() {
