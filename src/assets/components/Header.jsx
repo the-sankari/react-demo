@@ -1,9 +1,28 @@
+import {Link, NavLink} from 'react-router-dom';
+
+
 function Header() {
     return(
     <header>
-        <div>
-            <h1>React Basics Demo</h1>
-        </div>
+        <h1>
+            <Link to="/">React Demo</Link>
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <NavLink to="/">Landing Page</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/persons">Persons</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/about">About</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/ErrorPage">ErrorPage</NavLink>
+                </li>
+            </ul>
+        </nav>
     </header>
     )
 }

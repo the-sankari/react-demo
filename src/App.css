@@ -5,48 +5,105 @@
   text-align: center;
 }
 header{
-  background: #ffffff;
-  padding: 10px 40px;
-  color: purple;
+  background: purple;
+  padding: 10px 0;
+  color: #fff;
+  height: 60px;
+  text-align: center;
 }
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-
 h1{
-  font-size: 1.2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
 }
 
+/*form */
+/* Styles for the form container */
+.form-container {
+  max-width: 400px;
+  margin-top: 20px;
+  margin: 0 auto;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+form{
+  border: .5px solid #ffffffaa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ffffff6a;
+}
+
+/* Styles for labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* Styles for input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: none;
+  box-sizing: border-box;
+  background-color: #acabab73;
+  color: #000;
+}
+
+/* Styles for submit button */
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: grey;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+/**/
+/* Styles for the view container */
+.view-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+/* Styles for headings */
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Styles for paragraphs */
+p {
+  margin: 5px 0;
+}
+
+/* Styling for individual data */
+
+p:nth-child(even) {
+  color: #e6e6e6;
+}
+
+
+footer{
+  background: purple;
+  padding: 10px 40px;
+  color: #fff;
+  bottom: 0;
+}
